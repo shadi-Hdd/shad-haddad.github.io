@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Anderson</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div class="container-fluid main-part  ">
+        <div class="scroll-menu hidden">
+            <a class="logo-scroll" href="index.html">JA</a>
+            <button class="second-menuScroll"><i class="bi bi-list d-inline-block d-lg-none"></i></button>
+
+        </div>
+        <div class="main-menu">
+            <a class="logo" href="index.html">JA</a>
+            <button class="second-menu" id="btn-secondMenu"><i class="bi bi-list d-inline-block d-lg-none"></i></button>
+
+            <div class="hidden-menu hidden">
+                <button class="close-icon">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+                <br>
+                <ul class="hidden-list">
+                    <li class="active-green"> Home</li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Dropdown</a>
+                        <a href="#"> <i class="bi bi-chevron-compact-down dropd"></i>
+                            <i class="bi bi-chevron-compact-up dropu hidden"></i></a>
+                        <ul class="second-drop hidden">
+                            <li><a href="#" class="first-hover"> Testimonials </a></li>
+                            <li><a href="#" class="first-hover"> Menu Two </a>
+                                <a href="#">
+                                    <i class="bi bi-chevron-compact-down testd"></i>
+                                    <i class="bi bi-chevron-compact-up testu hidden"></i>
+                                </a>
+                                <ul class="third-drop hidden">
+                                    <li><a href="#" class="first-hover"> Sub Menu One</a></li>
+                                    <li><a href="#" class="first-hover"> Sub Menu Two</a></li>
+                                    <li><a href="#" class="first-hover"> Sub Menu Three</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="first-hover"> Menu Three </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> About</a></li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Portfolio</a></li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Services</a></li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Resume</a></li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Blog</a></li>
+                    <li class="hiddenMenu-items"><a href="#" class="first-hover"> Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <a class="logo-scroll-two hidden" href="index.html">JA</a>
+                <button class="second-menuScroll"><i class="bi bi-list d-inline-block d-lg-none"></i></button>
+
+                <div class="menu-items">
+
+                    <ul class="navbar d-none d-lg-flex">
+                        <li> <a href="#" class="active-white">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu-color twiceofChild">
+                            <a href="#" class="main-drop main-color">
+                                Dropdown
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </a>
+                            <!-- ************** -->
+                            <ul class="dropdown-menu">
+                                <li><a href="#" id="hover"> Testimonials </a></li>
+                                <li class="menu-two"><a href="#" id="hover"> Menu Two </a>
+                                    <a href="#" id="hover">
+                                        <i class="bi bi-chevron-compact-right "></i>
+
+                                    </a>
+                                    <ul class="dropdown-menu-two">
+                                        <li><a href="#" id="hover"> Sub Menu One</a></li>
+                                        <li><a href="#" id="hover"> Sub Menu Two</a></li>
+                                        <li><a href="#" id="hover"> Sub Menu Three</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" id="hover"> Menu Three </a>
+                                </li>
+                            </ul>
+                            <!-- ************* -->
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-one">
+                                About
+                            </a>
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-two">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-three">
+                                Services
+                            </a>
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-four">
+                                Resume
+                            </a>
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-five">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="menu-color">
+                            <a href="#" class="main-color-six">
+                                Contact
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="background-start">
+            <div class="background-blur">
+                <h1 class="start-info">
+                    I'm James Anderson
+                    <br>
+                    A Front-end Developer
+                </h1>
+
+                <p class="start-info-link">
+                    A new work from
+                    <span><a href=#>Colorlib</a></span>
+                </p>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="dot">
+    </div>
+    <div class="container change-container">
+        <div class="row one-row">
+            <div class="col-md-12 col-lg-6 img">
+                <img src="images/1.png">
+            </div>
+            <div class="col-md-12 col-lg-5 info-text">
+                <h2>My Bio</h2>
+                <p>Far far away, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt quibusdam
+                    officia
+                    eius expedita
+                    reprehenderit maiores doloremque neque sed similique molestia eos illum.
+                </p>
+                <p>A small river named Duden Explicabo
+                    esse voluptates nostrum error deserunt vero, molestiae delectus quo qui ipsa tempora!qui ipsa
+                    tempora consequatur
+                    modi at totam praesentium minus doloribus
+                </p>
+                <br>
+                <h6>Design</h6>
+                <div class=" main-line">
+                    <div class="color-one">
+                        <span class="range-span">
+                            85%
+
+                        </span>
+                    </div>
+
+                </div>
+                <h6>HTML5</h6>
+                <div class=" main-line">
+                    <div class="color-two">
+                        <span class="range-span">
+                            98%
+
+                        </span>
+                    </div>
+                </div>
+                <h6>CSS3</h6>
+                <div class=" main-line">
+                    <div class="color-three">
+                        <span class="range-span">
+                            97%
+
+                        </span>
+                    </div>
+                </div>
+                <h6>WordPress</h6>
+                <div class=" main-line">
+                    <div class="color-four">
+                        <span class="range-span">
+                            88%
+
+                        </span>
+                    </div>
+                </div>
+                <h6>Bootstrap</h6>
+                <div class=" main-line">
+                    <div class="color-five">
+                        <span class="range-span">
+                            92%
+
+                        </span>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <button class="btn-green">HIRE ME</button>
+                    <button class="btn-gray">DOWNLOAD CV</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row two-row">
+            <div class="subject">
+                <h2>
+                    My Portfolio
+                </h2>
+            </div>
+
+            <div class="second-menu-two">
+                <ul class="ul-second-menu">
+                    <li><a href="#" class="default-color">All</a>
+                    </li>
+                    <li><a href="#">Packaging</a></li>
+                    <li><a href="#">Mockup</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">Photography</a></li>
+
+                </ul>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-12 col-sm-4 ">
+                    <div class="row img-hover-one">
+                        <a href="#" class="ptf-link-one">
+                            <div class="parent">
+                                <img src="images/2.png" class="img-portfolio-one">
+                            </div>
+                            <div class="content">
+                                <h3>Card Vol . 3</h3>
+                                <div class="mockup">Mockup</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="modal-img hidden">
+                        <a href="#" class="close">
+                            <span><i class="bi bi-x-lg"></i></span>
+
+                        </a>
+                        <img src="images/2.png" alt="" class="modal-content">
+                        <a href="#" class="left-img">
+                            <span><i class="bi bi-chevron-compact-left "></i></span>
+
+                        </a>
+                        <a href="#" class="right-img">
+                            <span><i class="bi bi-chevron-compact-right "></i></span>
+                        </a>
+                    </div>
+
+                    <div class="row img-hover-two">
+                        <a href="#" class="ptf-link-two">
+                            <div class="parent">
+                                <img src="images/22.png" class="img-portfolio-one">
+                            </div>
+                            <div class="content">
+                                <h3>Seat</h3>
+                                <div class="mockup" id="mockup-link">Packaging</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="modal-img-two hidden">
+                        <a href="#" class="close-two">
+                            <span><i class="bi bi-x-lg"></i></span>
+                        </a>
+                        <img src="images/22.png" alt="" class="modal-content">
+                        <a href="#" class="left-img">
+                            <span><i class="bi bi-chevron-compact-left "></i></span>
+
+                        </a>
+                        <a href="#" class="right-img">
+                            <span><i class="bi bi-chevron-compact-right "></i></span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-4 overflow-one">
+                    <a href="#" class="ptf-link-three">
+                        <div class="parent">
+                            <img src="images/3.png" class="img-portfolio">
+                        </div>
+                        <div class="content">
+                            <h3>House Design</h3>
+                            <div class="mockup">Typography</div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="modal-img hidden">
+                    <a href="#" class="close">
+                        <span><i class="bi bi-x-lg"></i></span>
+                    </a>
+                    <img src="images/2.png" alt="" class="modal-content">
+                </div>
+                <div class="col-12 col-sm-4 ">
+                    <img src="images/4.png" class="img-portfolio">
+                </div>
+                <div class="modal-img hidden">
+                    <a href="#" class="close">
+                        <span><i class="bi bi-x-lg"></i></span>
+                    </a>
+                    <img src="images/2.png" alt="" class="modal-content">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-sm-4 "><a href="#">
+                        <img src="images/5.png" class="img-portfolio"></a>
+                </div>
+                <div class="col-12 col-sm-4 "><a href="#">
+                        <img src="images/6.png" class="img-portfolio"></a></div>
+                <div class="col-12 col-sm-4 "><a href="#">
+                        <img src="images/7.png" class="img-portfolio"></a></div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="services">
+            <h2>Services</h2>
+        </div>
+        <div class="row mid-services">
+
+            <div class="col-md-12 col-lg-4  services-col-margin ">
+                <div class="services-row">
+                    <i class="bi bi-display"></i>
+                    <h6>Development</h6>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live
+                        the blind texts</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 services-col-margin ">
+                <div class="services-row">
+                    <i class="bi bi-binoculars"></i>
+                    <h6>Design</h6>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live
+                        the blind texts</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4 services-col-margin ">
+                <div class="services-row">
+                    <i class="bi bi-basket3"></i>
+                    <h6>eCommerce</h6>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live
+                        the blind texts</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="resume">
+            <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-lg-5 img-resume ">
+                <img src="images/1.png">
+            </div>
+            <div class="col-md-12 col-lg-6 text-resume ">
+                <h3>Work Experience</h3>
+                <div class="work-experience">
+                    <div class="col-6 experience-left ">
+                        <h4>Senior Front End Developer</h4>
+                        <P><i class="bi bi-buildings"></i>Facebook, lnk. <i class="bi bi-geo-alt-fill"></i> San
+                            Francisco</P>
+                    </div>
+                    <div class="col-6 experience-right ">
+                        <div class="fulltime">
+                            <p class="time"><span>FULLTIME</span></p>
+                        </div>
+                        <p><i class="bi bi-calendar2-event"></i>November 2019 - Present</p>
+                    </div>
+
+
+                    <hr class="seprate-line">
+
+                    <div class="col-6 experience-left ">
+                        <h4>Front-end Engineer</h4>
+
+                        <P><i class="bi bi-buildings"></i>Google, lnk. <i class="bi bi-geo-alt-fill"></i> San
+                            Francisco
+                        </P>
+                    </div>
+                    <div class="col-6 experience-right ">
+                        <div class="fulltime">
+                            <p class="time"><span>PART TIME</span></p>
+                        </div>
+                        <p class="experience-date"><i class="bi bi-calendar2-event"></i>March 2015 - November 2019
+                        </p>
+                    </div>
+                    <hr class="seprate-line">
+
+                    <div class="col-6 experience-left ">
+                        <h4>Web Designer</h4>
+                        <P class="experience-date"><i class="bi bi-buildings"></i>Github, lnk. <i
+                                class="bi bi-geo-alt-fill"></i> San
+                            Francisco
+                        </P>
+                    </div>
+                    <div class="col-6 experience-right ">
+                        <div class="fulltime">
+                            <p class="time"><span>FULLTIME</span></p>
+                        </div>
+                        <p class="experience-date"><i class="bi bi-calendar2-event"></i> January 2010 - March 2015
+                        </p>
+                    </div>
+                    <hr class="seprate-line">
+
+                    <div class="col-6 xperience-left ">
+                        <h4>Lead Front-end Engineer</h4>
+                        <P><i class="bi bi-buildings"></i>Slack, lnk. <i class="bi bi-geo-alt-fill"></i> San
+                            Francisco
+                        </P>
+                    </div>
+                    <div class="col-6 experience-right ">
+                        <div class="fulltime">
+                            <p class="time"><span>FULLTIME</span></p>
+                        </div>
+                        <p class="experience-date"><i class="bi bi-calendar2-event"></i> January 2010</p>
+                    </div>
+                    <hr class="seprate-line">
+
+                </div>
+                <h3 class="education-title">Education</h3>
+
+                <div class="education">
+
+
+                    <div class="col-7 ">
+                        <h6>Master in Software Engineering</h6>
+                        <p class="uns"><i class="bi bi-calendar2-event"></i> Harvard University</p>
+                    </div>
+                    <div class="col-5 education-col ">
+                        <p><i class="bi bi-calendar2-event"></i> Columbia University</p>
+
+                    </div>
+
+                    <hr class="seprate-line">
+
+                    <div class="col-7 ">
+                        <h6>Batchelor in Software Engineering</h6>
+                        <p class="uns"><i class="bi bi-award"></i> Columbia University </p>
+                    </div>
+                    <div class="col-5 education-col ">
+                        <p><i class="bi bi-calendar2-event"></i> March 2015- November 2019</p>
+                    </div>
+
+                    <hr class="seprate-line">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container-fluid client">
+        <div class="container">
+
+            <h2>Happy Clients</h2>
+            <div class="row client-one">
+                <div class="col-sm-12 col-md-6 col-one-client ">
+                    <img src="images/person1.png" alt="" class="img-one">
+                    <div class="client-text-one">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the blind texts.
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                            language
+                            ocean.”
+                            <span>—Jeremy Winston, CEO <a href="#">XYZ Inc.</a></span>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-two-client ">
+                    <img src="images/person2.png" alt="" class="img-two">
+                    <div class="client-text-one">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the blind texts.
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                            language
+                            ocean.”
+
+                            <span>— Jeremy Winston, CEO <a href="#">XYZ Inc.</a></span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" row client-one">
+                <div class="col-sm-12 col-md-6 col-three-client ">
+                    <img src="images/person3.png" alt="" class="img-one">
+                    <div class="client-text-one">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the blind texts.
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                            language
+                            ocean.”
+                            <span>—Jeremy Winston, CEO <a href="#">XYZ Inc.</a></span>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-four-client ">
+                    <img src="images/person4.png" alt="" class="img-two">
+                    <div class="client-text-one">
+                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live
+                            the blind texts.
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                            language
+                            ocean.”
+                            <span>—Jeremy Winston, CEO <a href="#">XYZ Inc.</a></span>
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container blog">
+        <h2>Read on Medium</h2>
+        <div class="main-blog">
+            <p id="date">JUNE 28, 2020</p>
+            <h3>Front-end Developer Demands today</h3>
+            <p id="time">2 MINS READ</p>
+        </div>
+        <hr class="seprate-line-two">
+        <div class="main-blog">
+            <p id="date">June 28, 2020</p>
+            <h3>I Used React JS</h3>
+            <p id="time">2 MINS READ</p>
+        </div>
+        <hr class="seprate-line-two">
+
+        <div class="main-blog">
+            <p id="date">JUNE 28, 2020</p>
+            <h3>Whuy Front-end Developer So Important</h3>
+            <p id="time">2 MINS READ</p>
+        </div>
+        <hr class="seprate-line-two">
+
+    </div>
+    <div class="container contact">
+        <h2>Contact Me</h2>
+        <div class="row">
+            <div class="col-md-12 col-lg-7 contact-me ">
+                <div class="row contact-one">
+                    <div class="col-6 contact-pd">
+                        <label class="input-box" for="firstname">First name</label>
+                        <input type="text" class="name-box" id="firstname">
+                    </div>
+
+                    <div class="col-6 contact-pd ">
+                        <label class="input-box" for="lastname">Last name</label>
+                        <input type="text" class="name-box last-name" id="lastname">
+                    </div>
+                </div>
+
+                <div class="contact-one">
+                    <lable class="input-box" for="email">Email address</lable>
+                    <input type="email" class="email-box" id="email">
+                </div>
+
+                <div class="contact-one">
+                    <label class="input-box" for="textbox">Message</label>
+                    <textarea class="text-box" id="textbox"></textarea>
+                </div>
+
+                <div class="">
+                    <button class="btn-contact">SEND MESSAGE</button>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="col-lg-4 ml-auto contact-two ">
+                <P class="info">Contact Info</P>
+                <address class="d-flex">
+                    <span><i class="bi bi-geo-alt-fill"></i></span>
+                    <span> 43 Raymouth Rd. Baltemoer, London 3910</span>
+                </address>
+
+
+                <P class="tel-email"><a href="#"><i class="bi bi-telephone-fill"></i> +1(123)-456-7890</a>
+                </P>
+                <P class="tel-email"> <a href="#"> <i class="bi bi-telephone-fill"></i>+1(123)-456-7890</a>
+                </P>
+                <P class="tel-email"><a href="#"><i class="bi bi-envelope-fill"></i> info@mydomain.com</a>
+                </P>
+                <P class="tel-email"><a href="#"><i class="bi bi-globe-asia-australia"></i>
+                        https://Colorlib/</a>
+                </P>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="container">
+
+
+            <div class="row end-page">
+                <div class="col-lg-4 col-one ">
+                    <div class="row orbit-row">
+                        <h5>About Orbit.</h5>
+                        <p> Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia,
+                            there
+                            live
+                            the blind texts.</p>
+                    </div>
+                    <div class="row connect-row">
+                        <h5>Connect</h5>
+                        <p class="connect-app"><i class="bi bi-instagram"></i></p>
+                        <p class="connect-app"><i class="bi bi-twitter"></i></p>
+                        <p class="connect-app"><i class="bi bi-facebook"></i></p>
+                        <p class="connect-app"><i class="bi bi-linkedin"></i></p>
+                        <p class="connect-app"><i class="bi bi-pinterest"></i></p>
+                        <p class="connect-app"><i class="bi bi-dribbble"></i></p>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-two ">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-two ">
+                    <h5>Services</h5>
+                    <ul>
+                        <li>Web Design</li>
+                        <li>eCommerce</li>
+                        <li>WordPress</li>
+                        <li>Frontend</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-three ">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li>43 Raymouth Rd. Baltemoer , London 3910</li>
+                        <li>+1(123)-456-7890</li>
+                        <li>+1(123)-456-7890</li>
+                        <li>info@mydomain.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row end-text">
+                <p>Copyright ©2024 All rights reserved | This template
+                    <span>is made with<span id="color-red"><i class="bi bi-heart-fill"></i></span></span> by <a
+                        href="#"> Colorlib</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
